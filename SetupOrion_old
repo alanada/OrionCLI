@@ -3560,10 +3560,8 @@ services:
         - "traefik.http.routers.portainer.priority=1"
 		
     ports:
-      - target: 9000
-        published: 9443
-        protocol: tcp
-        mode: host		
+      - "9000:9000"
+      - "9443:9443"
 
 ## --------------------------- ORION --------------------------- ##
 
