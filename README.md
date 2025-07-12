@@ -29,6 +29,8 @@
 
 ```
 bash <(curl -sSL setup.oriondesign.art.br)
+versão old: bash <(curl -sSL https://raw.githubusercontent.com/alanada/OrionCLI/main/Setup_old)
+
 ```
 <p>Após isso basta aguardar alguns instantes enquanto o script é iniciado e por fim, instalar as ferramentas que desejar.</p>
 
